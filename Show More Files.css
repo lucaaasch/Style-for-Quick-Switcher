@@ -1,0 +1,29 @@
+/*-------------------------------------------------------------------------
+                     Show More Files by lucaaasch v1.0      
+    For some reason, Obsidian hides certain file types by default. The goal 
+    of this snippet is allow Obsidian to display all type of files just like 
+    it does with other files like PNGs.  All code is commented specifically 
+    to make customization easy.
+
+              All rights reserved https://github.com/lucaaasch
+---------------------------------------------------------------------------*/
+
+/* Page to find the HEX of any color: https://htmlcolorcodes.com */
+
+/* ------------------ CUSTOMIZABLE SNIPPET ------------------ */
+
+/* Here you include the types of files to display, it is just a matter of replacing ".exampleN" with the extension you want */
+
+    [data-path$=".example1"], /* This line of code will allow files of type ".example1" to be displayed */
+    [data-path$=".example2"], /* This line of code will allow files of type ".example2" to be displayed */
+    [data-path$=".example3"]  /* This line of code will allow files of type ".example3" to be displayed */
+        {
+            display: inline-flex !important; /* Changing this will only modify the position of the file type */
+            background-color: transparent; /* Here you can change the background color through its HEX code*/
+            color: #333; /* Here you can change the text color through its HEX code */
+            font-size: 12px; /* Select your font size */
+            font-family: Arial, Helvetica, sans-serif; /* Select your text font*/
+            border-radius: 3px; /* Increase or decrease the pixels value if you want the border to be more circular */
+            cursor: pointer; /* Change the cursor when hovering over the file */
+            position: relative; /* I do not recommend changing this option */
+        }
