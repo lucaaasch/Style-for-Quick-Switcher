@@ -20,7 +20,7 @@
         {
             display: inline-flex !important; /* Changing this will only modify the position of the file type */
             background-color: transparent; /* Here you can change the background color through its HEX code*/
-            color: #333; /* Here you can change the text color through its HEX code */
+            color: white; /* Here you can change the text color through its HEX code */
             font-size: 12px; /* Select your font size */
             font-family: Arial, Helvetica, sans-serif; /* Select your text font*/
             border-radius: 3px; /* Increase or decrease the pixels value if you want the border to be more circular */
