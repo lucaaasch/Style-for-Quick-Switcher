@@ -8,7 +8,8 @@ Show More Files (SMF) allows you to display all types of files in Obsidian, whic
 	You don't need any community plugin to use SCF
 ## Preview
 
-![[Preview.png]]
+<img width="583" alt="image" src="https://github.com/lucaaasch/Show-More-Files/blob/main/Preview.png?raw=true">
+
 ## Installing SMF
 
 1. Open `Settings` -> `Appearance` -> `CSS Snipets`
