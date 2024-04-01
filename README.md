@@ -1,6 +1,6 @@
 # Show More Files
 
-[![GitHub tag (Latest by date)](https://img.shields.io/github/v/tag/lucaaasch/show-code-files)](https://github.com/ebullient/obsidian-snippetor/releases) ![GitHub all releases](https://img.shields.io/github/downloads/lucaaasch/show-code-files/total?color=success)
+[![GitHub tag (Latest by date)](https://img.shields.io/github/v/tag/lucaaasch/Show-More-Files)](https://github.com/ebullient/obsidian-snippetor/releases) ![GitHub all releases](https://img.shields.io/github/downloads/lucaaasch/Show-More-Files/total?color=success)
 
 Show More Files (SMF) allows you to display all types of files in Obsidian, which are disabled by default. 
 
