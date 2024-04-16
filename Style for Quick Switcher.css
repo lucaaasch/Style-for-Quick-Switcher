@@ -1,9 +1,7 @@
 /*-------------------------------------------------------------------------
-                     Show More Files by lucaaasch v1.0      
-    For some reason, Obsidian hides certain file types by default. The goal 
-    of this snippet is allow Obsidian to display all type of files just like 
-    it does with other files like PNGs.  All code is commented specifically 
-    to make customization easy.
+                Style for Quick Switcher by lucaaasch v1.0      
+    With this plugin you can add different styles to the display of your 
+        obsidian files, from customizing their fonts, sizes and colors!
 
               All rights reserved https://github.com/lucaaasch
 ---------------------------------------------------------------------------*/
@@ -16,7 +14,6 @@
 
     [data-path$=".example1"], /* This line of code will allow files of type ".example1" to be displayed */
     [data-path$=".example2"], /* This line of code will allow files of type ".example2" to be displayed */
-    [data-path$=".example3"]  /* This line of code will allow files of type ".example3" to be displayed */
         {
             display: inline-flex !important; /* Changing this will only modify the position of the file type */
             background-color: transparent; /* Here you can change the background color through its HEX code*/
@@ -24,6 +21,18 @@
             font-size: 12px; /* Select your font size */
             font-family: Arial, Helvetica, sans-serif; /* Select your text font*/
             border-radius: 3px; /* Increase or decrease the pixels value if you want the border to be more circular */
+            cursor: pointer; /* Change the cursor when hovering over the file */
+            position: relative; /* I do not recommend changing this option */
+        }
+
+    [data-path$=".example3"]  /* This line of code will allow files of type ".example3" to be displayed */
+        {
+            display: inline-block !important; /* Changing this will only modify the position of the file type */
+            background-color: transparent; /* Here you can change the background color through its HEX code*/
+            color: red; /* Here you can change the text color through its HEX code */
+            font-size: 30px; /* Select your font size */
+            font-family: 'Times New Roman', Times, serif; /* Select your text font*/
+            border-radius: 5px; /* Increase or decrease the pixels value if you want the border to be more circular */
             cursor: pointer; /* Change the cursor when hovering over the file */
             position: relative; /* I do not recommend changing this option */
         }
