@@ -6,7 +6,7 @@ Style for Quick Switcher (SQS) allows you to customize the display of the differ
 
 For example, if you want files ending in “.pdf” to be displayed in a font other than the default and in another color, with SQS you can do it!
 
-<img width="250" alt="image" src="https://github.com/lucaaasch/Style-for-Quick-Switcher/blob/main/Preview.png?raw=true">
+<img width="400" alt="image" src="https://github.com/lucaaasch/Style-for-Quick-Switcher/blob/main/Preview.png?raw=true">
 
 **Complementary Plugins**
 - You don't need any community plugin to use SQS
