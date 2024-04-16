@@ -1,6 +1,6 @@
 # Style for Quick Switcher
 
-[![GitHub tag (Latest by date)](https://img.shields.io/github/v/tag/lucaaasch/Style-for-Quick-Switcher)](https://github.com/ebullient/obsidian-snippetor/releases) 
+[![GitHub tag (Latest by date)](https://img.shields.io/github/v/tag/lucaaasch/Style-for-Quick-Switcher)]
 
 Style for Quick Switcher (SQS) allows you to customize the display of the different file types in Obisidian. 
 
